@@ -126,6 +126,9 @@ public String getProvinceStats(@RequestParam(value = "date",defaultValue = "0")I
         return jsonBuilder.toString();
 
 }
+public String sun(){
+        return "sunzhipeng";
+}
     private Integer now() {
         String yyyyMMdd = DateFormatUtils.format(new Date(), "yyyyMMdd");
         return Integer.valueOf(yyyyMMdd);
